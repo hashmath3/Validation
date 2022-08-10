@@ -2,7 +2,16 @@
 	margin-top: 30px;
 	border: 100px;
 }
-
+.row {
+	margin: auto;
+	width: 700px;
+	padding: 40px;
+	background-color: rgb(179, 231, 214);
+ border-style:solid;
+ border-color:#287EC7;
+ box-shadow: 4px 6px 12px 0px;
+ border-width: thin;
+}
 .registration-form {
 	width: 900px;
   margin: auto;
@@ -10,6 +19,7 @@
 
 .title {
 	text-align: center;
+	color: #000000;
 }
 
 .submit-btn {
@@ -38,7 +48,10 @@ s
   }
   .display-3  {
   margin: auto;
-	width: 800px;
+	width: 700px;
+	height: 100px;
+	background-color: aliceblue;
+	/* color: rgb(235, 177, 101); */
 	padding: 4px;
  border-style:solid;
  border-color:#287EC7;;
